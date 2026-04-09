@@ -56,7 +56,7 @@ This ensures:
 
 ## 🔗 Live Simulation
 
-👉 [Click here to view on Tinkercad](PASTE_YOUR_LINK_HERE)
+👉 [Click here to view on Tinkercad](https://www.tinkercad.com/things/c9iCnbssfMI-bodacious-robo-snaget)
 
 ---
 
