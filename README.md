@@ -42,7 +42,7 @@ This automation ensures safety, reduces manual intervention, and improves effici
 
 🔗 Live Simulation
 
-👉 "View Tinkercad Project" (PASTE_YOUR_TINKERCAD_LINK_HERE)
+👉 "View Tinkercad Project" (https://www.tinkercad.com/things/c9iCnbssfMI-bodacious-robo-snaget)
 
 ---
 
@@ -70,10 +70,13 @@ main.ino
 
 smart-boiler-project/
 │
-├── main.ino
+├── Code/
+│   └── main.ino
+│
 ├── images/
 │   ├── preview.png
 │   └── preview2.png
+│
 └── README.md
 
 ---
