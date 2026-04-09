@@ -1,126 +1,145 @@
-🔥 Smart Boiler Simulation System
+# 🔥 Smart Boiler Automation System
 
-📌 Overview
-
-The Smart Boiler Simulation System is an Arduino-based project developed in a simulated environment to ensure safe and efficient boiler operation.
-It monitors temperature and water level in real time and automatically controls the system to prevent overheating and dry running.
+### ⚙️ Developed by Team DexterChem
 
 ---
 
-🚀 Features
+## 🚀 Project Overview
 
-- 🌡️ Real-time temperature monitoring
-- 💧 Water level detection
-- ⚡ Automatic heater control using relay
-- 🔔 Buzzer alert for unsafe conditions
-- 🤖 Fully automated decision-making system
+The **Smart Boiler Automation System** is an embedded system simulation designed to ensure **safe and efficient boiler operation**.
 
----
+It continuously monitors:
 
-🧰 Components Used
+* 🌡️ Temperature
+* 💧 Water Level
 
-- Arduino UNO
-- Temperature Sensor (Analog)
-- Water Level Sensor
-- Relay Module
-- Buzzer
-- Connecting wires
+and automatically controls the system using intelligent decision logic.
 
 ---
 
-⚙️ Working Principle
+## 🎯 Key Features
 
-The system continuously reads sensor inputs and responds intelligently:
-
-- If temperature exceeds the threshold → Heater (Relay) turns OFF
-- If water level is LOW → Buzzer turns ON
-- If all conditions are safe → System operates normally
-
-This automation ensures safety, reduces manual intervention, and improves efficiency.
+* 🔥 Automatic temperature control system
+* 💧 Water level safety detection
+* ⚡ Relay-based heater automation
+* 🔔 Buzzer alert for critical conditions
+* 🤖 Fully autonomous system (no manual control required)
 
 ---
 
-🔗 Live Simulation
+## 🧰 Components Used
 
-👉 "View Tinkercad Project" (https://www.tinkercad.com/things/c9iCnbssfMI-bodacious-robo-snaget)
-
----
-
-📸 Project Preview
-
-🔌 Circuit Design
-
-"Circuit" (images/preview.png)
-
-⚙️ Simulation Output
-
-"Simulation" (images/preview2.png)
+* Arduino UNO
+* Temperature Sensor
+* Water Level Sensor
+* Relay Module
+* Buzzer
+* Jumper Wires
 
 ---
 
-💻 Code
+## ⚙️ System Working
 
-The Arduino source code is available in:
+The system operates based on real-time sensor inputs:
 
+* If **temperature exceeds safe limit** → Heater OFF
+* If **water level is LOW** → Buzzer ON
+* If all conditions are normal → System runs efficiently
+
+This ensures:
+
+* ✅ Safety
+* ✅ Energy efficiency
+* ✅ Reduced human intervention
+
+---
+
+## 🔗 Live Simulation
+
+👉 [Click here to view on Tinkercad](PASTE_YOUR_LINK_HERE)
+
+---
+
+## 📸 Project Preview
+
+### 🔌 Circuit Design
+
+![Circuit](images/preview.png)
+
+### ⚙️ Simulation Output
+
+![Simulation](images/preview2.png)
+
+---
+
+## 💻 Source Code
+
+```bash
 main.ino
+```
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
 
-smart-boiler-project/
+```bash
+DexterChem/
 │
-├── Code/
-│   └── main.ino
-│
+├── main.ino
 ├── images/
 │   ├── preview.png
 │   └── preview2.png
-│
 └── README.md
+```
 
 ---
 
-🧠 Learning Outcomes
+## 🧠 Skills Gained
 
-- Understanding of embedded systems fundamentals
-- Working with sensors and actuators
-- Implementing real-time control logic
-- Simulation of real-world automation systems
-
----
-
-🔮 Future Improvements
-
-- 📟 Add LCD display for real-time data
-- 🌐 Integrate IoT for remote monitoring
-- 📱 Mobile app control system
-- 📊 Data logging and analytics
+* Embedded Systems Basics
+* Sensor Integration
+* Real-time Logic Implementation
+* Automation System Design
 
 ---
 
-👥 Team DexterChem
+## 🔮 Future Enhancements
 
-🧑‍🤝‍🧑 Team Members
-
-1. Abhishek Kumar Dutta
-2. Pawan Kumar Agarwal
-3. Preeti Paul
-4. Payal Kumari
+* 📟 LCD Display Integration
+* 🌐 IoT-based Remote Monitoring
+* 📱 Mobile App Control
+* 📊 Data Logging System
 
 ---
 
-🤝 Contribution
+## 👥 Team DexterChem
 
-This project was collaboratively developed by Team DexterChem, with contributions in:
+### 🧑‍💻 Members
 
-- Circuit design
-- Logic implementation
-- Simulation testing
-- Documentation
+* **Abhishek Kumar Dutta**
+* **Pawan Kumar Agarwal**
+* **Preeti Paul**
+* **Payal Kumari**
 
 ---
 
-⭐ Support
+## 🏆 Contribution
 
-If you found this project useful, consider giving it a ⭐ on GitHub!
+This project was collaboratively built with contributions in:
+
+* Circuit Design
+* Logic Development
+* Testing & Simulation
+* Documentation
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, give it a ⭐ and share it!
+
+---
+
+## 💬 Final Note
+
+This project represents a practical implementation of **automation and safety systems**, simulating real-world industrial boiler control.
