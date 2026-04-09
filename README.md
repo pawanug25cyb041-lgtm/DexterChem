@@ -85,7 +85,8 @@ main.ino
 ```bash
 DexterChem/
 │
-├── main.ino
+├── code/
+│   └── main.ino
 ├── images/
 │   ├── preview.png
 │   └── preview2.png
